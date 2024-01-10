@@ -5,10 +5,24 @@ Relative xpath
 //tagname[@attribute='']
 //tagname[text()='']
 
+Contains
+//tagname[contains(@attribute,'')]
+//tagname[contains(text(),'')]
+
 Grouping of xpath - starts at 1
 (//input[@name='sex'])[3]
+
+
 
 Example: verify in chrome -> ctrl+f
 //input[@value='-1']
 
 //label[text()='Custom']
+
+//button[text()='start my free trial']
+
+//input[contains(@id,'UserFirst')]
+
+//button[contains(text(),'free trial')]
+
+
