@@ -21,7 +21,6 @@ public class Demo4SalesForce {
         //select jobtitle as "IT Manager"
         //select employees to '101-200 emplpoyees'
 
-
         //country as Maldives
         Select selectCountry=new Select(driver.findElement(By.name("CompanyCountry")));
         selectCountry.selectByVisibleText("Maldives");
@@ -31,6 +30,7 @@ public class Demo4SalesForce {
 
         //click on checkbox of agreement
         driver.findElement(By.xpath("(//div[@class='checkbox-ui'])[2]")).click();
+
 
 
     }
