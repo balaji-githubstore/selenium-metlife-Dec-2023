@@ -43,6 +43,7 @@ public class Demo3FBSignUp {
 
         //click on custom radio button
         driver.findElement(By.xpath("//input[@value='-1']")).click();
-        //will start at 4:15 PM
+
+        driver.quit();
     }
 }
