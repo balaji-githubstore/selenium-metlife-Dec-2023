@@ -1,0 +1,14 @@
+XPATH 
+Absolute xpath (not recommeded) - /html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[7]/span/span[3]/input
+
+Relative xpath
+//tagname[@attribute='']
+//tagname[text()='']
+
+Grouping of xpath - starts at 1
+(//input[@name='sex'])[3]
+
+Example: verify in chrome -> ctrl+f
+//input[@value='-1']
+
+//label[text()='Custom']
