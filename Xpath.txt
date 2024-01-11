@@ -25,4 +25,20 @@ Example: verify in chrome -> ctrl+f
 
 //button[contains(text(),'free trial')]
 
+//li[@data_get='register-app']
+//li[text()='register']
+------------------
+CSS Selector
+https://www.w3schools.com/cssref/css_selectors.php
+
+#id
+.classname
+[attribute='']
+tagname[attribute='']
+
+
+Example:
+#citiCard2
+[name='citiCard3']
+
 
