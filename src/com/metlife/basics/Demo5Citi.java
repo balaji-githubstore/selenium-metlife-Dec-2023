@@ -43,6 +43,8 @@ public class Demo5Citi {
 
         driver.findElement(By.linkText("14")).click();
 
+//        approach 3 - javascript 
+
         driver.findElement(By.xpath("//input[@value='PROCEED']")).click();
 
 //        9.  Click on Proceed\

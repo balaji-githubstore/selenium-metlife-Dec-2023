@@ -18,9 +18,10 @@ public class Demo3FBSignUp {
 
         //click on create new account
         //findElement --> takes only 0.5s to check presence of given locator
+
         driver.findElement(By.linkText("Create new account")).click();
 
-        //enter first name as john
+        //enter first name as john--> takes only 0.5s to check presence of given locator
         driver.findElement(By.name("firstname")).sendKeys("john");
 
         //enter lastname as wick
